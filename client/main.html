@@ -1,0 +1,50 @@
+<head>
+  <title>Statistics</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      {{> navbar}}
+    </header>
+  </div>
+  {{appLayout}}
+</body>
+
+<template name="navbar">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="row">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+          aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Statistical App</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="/">Dashboard</a></li>
+          <li><a href="/y/2015" route-data="Y2015">2015</a></li>
+          <li><a href="/y/2016" route-data="Y2016">2016</a></li>
+          <li><a href="/new" route-data="addform">Add Statistics Data</a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+  </nav>
+</template>
+<template name="appLayout">
+  <!--[if lt IE 9]>
+    <p class="browser-warning"><strong><i class="icon-exclamation-sign"></i> Warning</strong> - You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" target="_blank">upgrade your browser</a> to properly view this website.</p>
+  <![endif]-->
+
+  <main id="container">
+	  <div class="container">
+	    {{> Template.dynamic template=area}}
+	  </div>
+  </main>
+
+</template>

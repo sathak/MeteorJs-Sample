@@ -1,0 +1,13 @@
+body {
+  padding: 10px;
+  font-family: sans-serif;
+}
+.navbar-header{
+  padding-left:20px;
+}
+.navbar-nav{
+  padding-left: 15px !important;
+}
+li,a{
+  cursor: pointer;
+}

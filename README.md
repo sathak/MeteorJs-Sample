@@ -10,5 +10,5 @@ Run the command on command prompt in the project directory
 Meteor
 ```
 
-![Screenshot](dashboard1.png)
+![Screenshot](https://github.com/sathak/MeteorJs-Sample/raw/master/dshboard1.PNG)
 

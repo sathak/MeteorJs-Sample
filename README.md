@@ -4,8 +4,10 @@ Install Node.js
 
 Install Meteor.js
 
-Run the command on command prompt in the project directory
-
+Run the below commands on command prompt in the project directory
+```
+npm install
+```
 ```
 Meteor
 ```

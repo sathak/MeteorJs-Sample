@@ -11,6 +11,7 @@ npm install
 ```
 Meteor
 ```
+Click the Random Documents button to generate the random records in DB.
 
 ![Screenshot](https://github.com/sathak/MeteorJs-Sample/raw/master/dshboard1.PNG)
 

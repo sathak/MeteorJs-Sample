@@ -1,3 +1,5 @@
+[See the Live Result](https://statisticapp.herokuapp.com/)
+
 # MeteorJs-Sample
 
 Install Node.js
@@ -21,6 +23,3 @@ Click the Random Documents button to generate the random records in DB.
 
 ![Screenshot](https://github.com/sathak/MeteorJs-Sample/raw/master/addnew.PNG)
 
-```
-[See the Live Result](https://statisticapp.herokuapp.com/)
-```
